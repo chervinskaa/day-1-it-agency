@@ -83,12 +83,16 @@ header a:hover {
 }
 
 .left-block {
-    flex: 1;
     text-align: left;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-top: 20px;
+}
+
+.left-block h3 {
+    color: #001f3f;
+    font-weight: bold;
 }
 
 .right-block {
