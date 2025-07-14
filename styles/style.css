@@ -1,0 +1,129 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header */
+header {
+    background-color: #001f3f;
+    padding: 1rem 0;
+}
+
+header a {
+    color: white;
+    margin-right: 1rem;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+header nav a {
+    margin-right: 1rem;
+}
+
+header nav a:hover {
+    color: rgb(52, 65, 94);
+}
+
+header a:hover {
+    color: rgb(52, 65, 94);
+}
+
+/* Hero Section */
+.contact {
+    background: linear-gradient(135deg, #003566, #001d3d);
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.contact h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.contact p {
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
+
+/* our_services */
+.services {
+
+    background-color: #f8f9fa;
+}
+
+.service-card {
+    background: white;
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card img {
+    width: 80px;
+    height: 80px;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* We_are */
+
+.We_are {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 40px;
+    padding: 60px 20px;
+}
+
+.left-block,
+.right-block {
+    flex: 1;
+}
+
+.left-block {
+    flex: 1;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.right-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-block img {
+    max-width: 100%;
+    border-radius: 12px;
+    margin: 2rem;
+}
+
+footer {
+    background-color: #001f3f;
+    color: white;
+
+}
+
+.footer-social a img {
+    filter: brightness(0) invert(1);
+    /* зробити іконки білі на темному фоні */
+    transition: transform 0.2s ease;
+    width: 32px;
+    height: 32px;
+
+}
+
+.footer-social a:hover img {
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    .We_are {
+        flex-direction: column;
+    }
+}
