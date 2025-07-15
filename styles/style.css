@@ -45,6 +45,16 @@ header a:hover {
     margin-top: 1rem;
 }
 
+.contact a {
+    transition: transform 0.3s ease;
+}
+
+.contact a:hover {
+    transition: transform 0.3s ease;
+    transform: scale(1.05);
+}
+
+
 /* our_services */
 .services {
 
@@ -117,6 +127,7 @@ header a:hover {
 .advantages-card img {
     width: 70px;
     height: 70px;
+    transition: transform 0.3s ease;
 }
 
 .advantages-card:hover {
@@ -124,10 +135,21 @@ header a:hover {
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
 
+.advantages-card:hover img {
+    transform: scale(1.2);
+}
+
+
 .advantages-card h5 {
     word-wrap: break-word;
     overflow-wrap: break-word;
     white-space: normal;
+    transition: 0.3s ease;
+}
+
+.advantages-card:hover h5 {
+    transform: scale(1.05);
+    color: #001d3d;
 }
 
 
