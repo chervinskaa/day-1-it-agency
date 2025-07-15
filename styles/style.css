@@ -27,7 +27,7 @@ header a:hover {
     color: rgb(52, 65, 94);
 }
 
-/* Hero Section */
+/* contact Section */
 .contact {
     background: linear-gradient(135deg, #003566, #001d3d);
     color: white;
@@ -106,6 +106,30 @@ header a:hover {
     border-radius: 12px;
     margin: 2rem;
 }
+
+/* advantages */
+.advantages-card {
+    background: white;
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.advantages-card img {
+    width: 70px;
+    height: 70px;
+}
+
+.advantages-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.advantages-card h5 {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+}
+
 
 footer {
     background-color: #001f3f;
